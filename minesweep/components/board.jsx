@@ -9,9 +9,9 @@ class Board extends React.Component{
 
     render(){
         console.log(this.props.board)
-      return (  <div>
+      return (  <div id="board">
                     {this.props.board.map((el1, idx) =>{
-                        return <div key={idx} id={idx}>
+                        return <div className="row" key={idx} id={idx}>
                             {el1.map((el2, idx) => {
                                return  <Tile key={idx} tile={el2} updateGame = {this.props.updateGame} />
                             })}

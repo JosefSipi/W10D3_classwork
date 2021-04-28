@@ -1,0 +1,30 @@
+
+
+#board {
+    text-align: center;
+    width: 600px;
+
+}
+
+body {
+    height: 300px;
+}
+
+.tile {
+    display: inline-block;
+    background-color: rgb(172, 172, 172);
+    border-style: outset;
+    height: 100%;
+    width: 30px;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    height: 28px;
+    margin-bottom: 0;
+}
+
+div .revealed {
+    border-style: inset;
+}
